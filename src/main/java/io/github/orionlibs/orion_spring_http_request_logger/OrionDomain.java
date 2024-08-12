@@ -1,4 +1,4 @@
-package io.github.orionlibs.project_name;
+package io.github.orionlibs.orion_spring_http_request_logger;
 
 public class OrionDomain
 {

@@ -1,0 +1,12 @@
+orionlibs.orion_spring_http_request_logger.interceptor.enabled=true
+orionlibs.orion_spring_http_request_logger.log.ip.address.enabled=true
+orionlibs.orion_spring_http_request_logger.log.http.method.enabled=true
+orionlibs.orion_spring_http_request_logger.log.uri.enabled=true
+orionlibs.orion_spring_http_request_logger.log.pattern.for.each.log.record.element=%s: %s
+orionlibs.orion_spring_http_request_logger.log.http.methods.logged=*
+orionlibs.orion_spring_http_request_logger.log.uris.logged.pattern=*
+#orionlibs.orion_spring_http_request_logger.log.uris.logged.pattern=^(/[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*)$ any valid URI
+#orionlibs.orion_spring_http_request_logger.log.uris.logged.pattern=^(/api/v1/[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*)$ any valid URI that starts with /api/v1/
+#orionlibs.orion_spring_http_request_logger.log.uris.logged.pattern=.*/users/.* any valid URI that contains /users/
+orionlibs.orion_spring_http_request_logger.log.uri.query.params.enabled=false
+orionlibs.orion_spring_http_request_logger.log.request.processing.duration.enabled=true
